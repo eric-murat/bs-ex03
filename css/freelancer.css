@@ -468,11 +468,3 @@ footer .footer-below {
 .flip {
     transform: rotate(180deg);
 }
-
-.table .th .td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-indent: initial;
-    border-spacing: 2px;
-}
-
