@@ -448,3 +448,31 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+/* SVG background image via https://haikei.app/ */
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('../img/layered-waves1.svg');
+}
+.layer2 {
+    background-image: url('../img/layered-waves2.svg');
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.table .th .td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
