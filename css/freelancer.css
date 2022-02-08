@@ -454,7 +454,7 @@ footer .footer-below {
     aspect-ratio: 960/300;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -463,6 +463,9 @@ footer .footer-below {
 }
 .layer2 {
     background-image: url('../img/layered-waves2.svg');
+}
+.layer3 {
+    background-image: url('../img/layered-waves3.svg');
 }
 
 .flip {
